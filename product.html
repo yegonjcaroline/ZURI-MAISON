@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mara Lounge Sofa | ZURI MAISON</title><script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <script>tailwind.config={theme:{extend:{colors:{ink:"#25251f",olive:"#59634a",paper:"#f7f5ef",sand:"#e8e2d5"},fontFamily:{sans:["DM Sans","sans-serif"],display:["Playfair Display","serif"]}}}}</script>
+</head>
+<body class="bg-paper font-sans text-ink">
+  <div class="bg-olive px-4 py-2 text-center text-xs text-white">Considered pieces for the way you live. Nairobi, Kenya.</div>
+  <header class="border-b border-black/10"><nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-5"><a href="index.html" class="font-display text-2xl">ZURI MAISON</a><button id="menuButton" class="md:hidden">Menu</button><div id="menu" class="hidden absolute left-0 right-0 top-[105px] z-20 flex-col gap-4 border-b bg-paper px-6 py-5 text-sm md:static md:flex md:flex-row md:gap-8 md:border-0 md:bg-transparent md:p-0"><a href="shop.html">Shop</a><a href="about.html">Our story</a><a href="journal.html">Journal</a><a href="contact.html">Contact</a></div></nav></header>
+  <main class="mx-auto max-w-7xl px-5 py-8">
+    <p class="mb-8 text-sm text-black/55"><a href="shop.html" class="underline">Shop</a> / Seating / Mara Lounge Sofa</p>
+    <div class="grid gap-10 md:grid-cols-2 md:gap-16">
+      <img class="w-full object-cover" src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1300&q=85" alt="Mara Lounge Sofa in olive fabric">
+      <div class="py-3">
+        <p class="text-xs uppercase tracking-[.2em] text-olive">The living room edit</p><h1 class="mt-3 font-display text-5xl">Mara Lounge Sofa</h1><p class="mt-4 text-xl">KSh 148,000</p>
+        <p class="mt-6 leading-7 text-black/65">A generous, easygoing sofa with soft, deep cushions and a relaxed silhouette. Designed for slow mornings, long conversations and the occasional afternoon nap.</p>
+        <div class="mt-7 border-t border-black/10 pt-6"><p class="text-sm font-medium">Colour: Olive</p><div class="mt-3 flex gap-3"><button aria-label="Olive" class="h-8 w-8 rounded-full border-2 border-paper bg-[#68705b] ring-1 ring-ink"></button><button aria-label="Natural" class="h-8 w-8 rounded-full border border-black/20 bg-[#c8bda8]"></button><button aria-label="Clay" class="h-8 w-8 rounded-full border border-black/20 bg-[#a6755b]"></button></div></div>
+        <label class="mt-6 block text-sm font-medium" for="quantity">Quantity</label><input id="quantity" type="number" min="1" value="1" class="mt-2 w-20 border border-black/20 bg-transparent px-3 py-2">
+        <button id="addButton" class="mt-5 w-full bg-ink px-6 py-4 text-sm text-white hover:bg-olive">Add to your enquiry</button><p id="message" class="mt-3 hidden text-sm text-olive">Thanks. Contact us to confirm availability and delivery.</p>
+        <div class="mt-8 space-y-4 border-t border-black/10 pt-6 text-sm"><details><summary class="cursor-pointer font-medium">Materials and care</summary><p class="mt-3 leading-6 text-black/60">Upholstered in durable cotton blend fabric over a kiln-dried hardwood frame. Vacuum regularly and spot clean with a damp cloth.</p></details><details><summary class="cursor-pointer font-medium">Delivery and lead time</summary><p class="mt-3 leading-6 text-black/60">Delivery available in Nairobi and nearby areas. Contact us for current lead times and delivery pricing.</p></details></div>
+      </div>
+    </div>
+  </main>
+  <footer class="mt-16 bg-[#282922] px-5 py-8 text-center text-sm text-white/60">ZURI MAISON · Westlands, Nairobi · +254 700 123 456 · hello@zurimaison.co.ke</footer>
+  <script>document.getElementById("menuButton").addEventListener("click",()=>document.getElementById("menu").classList.toggle("hidden"));document.getElementById("addButton").addEventListener("click",()=>document.getElementById("message").classList.remove("hidden"));</script>
+</body>
+</html>

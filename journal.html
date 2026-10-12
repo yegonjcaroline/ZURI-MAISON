@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journal | ZURI MAISON</title><script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <script>tailwind.config={theme:{extend:{colors:{ink:"#25251f",olive:"#59634a",paper:"#f7f5ef",sand:"#e8e2d5"},fontFamily:{sans:["DM Sans","sans-serif"],display:["Playfair Display","serif"]}}}}</script>
+</head>
+<body class="bg-paper font-sans text-ink">
+  <div class="bg-olive px-4 py-2 text-center text-xs text-white">Considered pieces for the way you live. Nairobi, Kenya.</div>
+  <header class="border-b border-black/10"><nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-5"><a href="index.html" class="font-display text-2xl">ZURI MAISON</a><button id="menuButton" class="md:hidden">Menu</button><div id="menu" class="hidden absolute left-0 right-0 top-[105px] z-20 flex-col gap-4 border-b bg-paper px-6 py-5 text-sm md:static md:flex md:flex-row md:gap-8 md:border-0 md:bg-transparent md:p-0"><a href="shop.html">Shop</a><a href="about.html">Our story</a><a href="journal.html">Journal</a><a href="contact.html">Contact</a></div></nav></header>
+  <main class="mx-auto max-w-7xl px-5 py-14 md:py-20">
+    <p class="text-xs uppercase tracking-[.2em] text-olive">Notes from home</p><h1 class="mt-3 font-display text-5xl md:text-6xl">The journal</h1><p class="mt-4 max-w-xl leading-7 text-black/60">Ideas, materials and small ways to make your space feel more like you.</p>
+    <div class="mt-12 grid gap-10 md:grid-cols-2">
+      <article class="md:col-span-2 md:grid md:grid-cols-2 md:gap-10"><img class="aspect-[4/3] w-full object-cover" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80" alt="Living room with warm neutral colours"><div class="flex flex-col justify-center py-5"><p class="text-xs uppercase tracking-[.18em] text-olive">At home · 5 min read</p><h2 class="mt-4 font-display text-3xl md:text-4xl">A slower, softer living room</h2><p class="mt-4 leading-7 text-black/60">Layer natural textures, leave room to move and let the light do some of the work. A few thoughtful choices can make a living space feel more inviting.</p><a href="about.html" class="mt-5 text-sm underline underline-offset-4">Read the story</a></div></article>
+      <article><img class="aspect-[4/3] w-full object-cover" src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=900&q=80" alt="Books and objects on a shelf"><p class="mt-5 text-xs uppercase tracking-[.18em] text-olive">Styling · 4 min read</p><h2 class="mt-3 font-display text-2xl">Make a shelf feel like yours</h2><p class="mt-3 leading-7 text-black/60">A practical guide to mixing books, useful objects and a little breathing room.</p><a href="about.html" class="mt-4 inline-block text-sm underline underline-offset-4">Read the story</a></article>
+      <article><img class="aspect-[4/3] w-full object-cover" src="https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=900&q=80" alt="Wooden furniture in a calm interior"><p class="mt-5 text-xs uppercase tracking-[.18em] text-olive">Materials · 6 min read</p><h2 class="mt-3 font-display text-2xl">Getting to know your wood</h2><p class="mt-3 leading-7 text-black/60">Grain, tone and the small differences that make a natural material special.</p><a href="about.html" class="mt-4 inline-block text-sm underline underline-offset-4">Read the story</a></article>
+    </div>
+  </main>
+  <footer class="bg-[#282922] px-5 py-8 text-center text-sm text-white/60">ZURI MAISON · Mauande, Nakuru · +254 706 081 500 · hello@zurimaison.co.ke</footer>
+  <script>document.getElementById("menuButton").addEventListener("click",()=>document.getElementById("menu").classList.toggle("hidden"));</script>
+</body>
+</html>

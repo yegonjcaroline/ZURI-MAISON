@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Story | ZURI MAISON</title><script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <script>tailwind.config={theme:{extend:{colors:{ink:"#25251f",olive:"#59634a",paper:"#f7f5ef",sand:"#e8e2d5"},fontFamily:{sans:["DM Sans","sans-serif"],display:["Playfair Display","serif"]}}}}</script>
+</head>
+<body class="bg-paper font-sans text-ink">
+  <div class="bg-olive px-4 py-2 text-center text-xs text-white">Considered pieces for the way you live. Nairobi, Kenya.</div>
+  <header class="border-b border-black/10"><nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-5"><a href="index.html" class="font-display text-2xl">ZURI MAISON</a><button id="menuButton" class="md:hidden">Menu</button><div id="menu" class="hidden absolute left-0 right-0 top-[105px] z-20 flex-col gap-4 border-b bg-paper px-6 py-5 text-sm md:static md:flex md:flex-row md:gap-8 md:border-0 md:bg-transparent md:p-0"><a href="shop.html">Shop</a><a href="about.html">Our story</a><a href="journal.html">Journal</a><a href="contact.html">Contact</a></div></nav></header>
+  <main>
+    <section class="mx-auto max-w-7xl px-5 py-16 md:py-24"><p class="text-xs uppercase tracking-[.2em] text-olive">A little about us</p><h1 class="mt-4 max-w-3xl font-display text-5xl leading-tight md:text-7xl">A home is made in the details.</h1><p class="mt-7 max-w-2xl text-lg leading-8 text-black/65">ZURI MAISON began with a simple idea: the things we live with every day should feel good to use, look good to keep, and be made with care.</p></section>
+    <img class="h-[50vh] min-h-[340px] w-full object-cover" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2000&q=85" alt="Calm, sunlit living room">
+    <section class="mx-auto grid max-w-7xl gap-12 px-5 py-20 md:grid-cols-2 md:gap-20">
+      <div><p class="text-xs uppercase tracking-[.2em] text-olive">Our point of view</p><h2 class="mt-3 font-display text-4xl">Less, but more considered.</h2></div>
+      <div class="space-y-5 leading-7 text-black/65"><p>We are a Nakuru furniture and homewares brand shaped by the way people actually live. A Sunday lunch that runs late. Friends who stay for another cup of tea. A favourite chair that becomes everyone's favourite chair.</p><p>Those moments are at the centre of our work. We look for honest materials, useful shapes and warm, natural finishes. We want our pieces to settle into your home and become part of its story.</p><p>We work with makers and suppliers to build a collection that balances comfort, character and long-term usefulness.</p></div>
+    </section>
+    <section class="bg-sand px-5 py-16 text-center"><p class="text-xs uppercase tracking-[.2em] text-olive">Come see for yourself</p><h2 class="mt-3 font-display text-4xl">Your seat is waiting.</h2><p class="mx-auto mt-4 max-w-lg leading-7 text-black/60">Visit our Nakuru showroom to explore the collection, ask questions and find the right piece for your home.</p><a href="contact.html" class="mt-7 inline-block bg-ink px-7 py-4 text-sm text-white">Visit the showroom</a></section>
+  </main>
+  <footer class="bg-[#282922] px-5 py-8 text-center text-sm text-white/60">ZURI MAISON · Mauande, Nakuru · +254 706 081 500 · hello@zurimaison.co.ke</footer>
+  <script>document.getElementById("menuButton").addEventListener("click",()=>document.getElementById("menu").classList.toggle("hidden"));</script>
+</body>
+</html>
